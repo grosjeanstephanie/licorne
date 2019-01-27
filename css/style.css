@@ -1,0 +1,58 @@
+h1 {
+  font-family: arial;
+  font-style: italic;
+  color:black;
+  text-align: center;
+  text-decoration: underline;
+}
+h3 {
+  font-family: fantasy;
+  font-style: oblique;
+  text-decoration: underline;
+}
+p {
+  text-indent: 25px;
+  font-family: cursive;
+  color: lightblack;
+  font-size: 19px
+}
+body {
+  background: white;
+  background-image:url("../images/sakura Japon Tokyo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: 1850px;
+  text-align: left;
+  width: 900px;
+  margin: auto;
+}
+img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid purple;
+}
+blockquote {
+  font-family: fantasy;
+  font-style: italic;
+  font-size: 30px;
+  color: purple;
+  text-align: left;
+  text-decoration: underline;
+}
+body > div {
+ background-color: rgba(255, 255, 255, 0.5);
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  border: 2px solid purple;
+  text-align: left;
+}
+div > div {
+  text-align: left;
+  margin: auto;
+  font-size: 19px;
+}
